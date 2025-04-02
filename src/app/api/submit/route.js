@@ -1,4 +1,3 @@
-import { addNewType, getTypes } from '@/lib/data';
 import { google } from 'googleapis';
 
 export async function POST(req) {
@@ -79,11 +78,6 @@ export async function POST(req) {
       }
     });
 
-    // Check if type is new, and add it to data.json if it is
-    const existingTypes = await getTypes();
-    if (!existingTypes.includes(type)) {
-      await addNewType(type);
-    }
 
     return Response.json({ success: true });
   } catch (error) {
