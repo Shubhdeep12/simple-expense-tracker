@@ -31,8 +31,8 @@ export default function Home() {
             <circle cx="350" cy="150" r="20" fill="#c9ada7" />
           </svg>
         </div>
-        <h1 className="app-title">Expense Tracker</h1>
-        <p className="app-subtitle">Track your expenses easily</p>
+        <h1 className="app-title">H-703 Expense Tracker</h1>
+        <p className="app-subtitle">Track your expenses easily 👌</p>
       </header>
       
       <main>
