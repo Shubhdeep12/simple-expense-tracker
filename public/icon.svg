@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#22223b" />
+  
+  <!-- Decorative elements -->
+  <circle cx="120" cy="140" r="50" fill="#4a4e69" opacity="0.7" />
+  <circle cx="400" cy="380" r="70" fill="#9a8c98" opacity="0.6" />
+  
+  <!-- Rupee symbol background -->
+  <circle cx="256" cy="220" r="120" fill="#f2e9e4" />
+  
+  <!-- Rupee symbol -->
+  <g transform="translate(256, 220) scale(2.2)">
+    <path d="M-30 -20 H30 M-30 0 H30" stroke="#22223b" stroke-width="6" stroke-linecap="round" />
+    <path d="M0 -30 L0 30 M-15 -30 L15 30" stroke="#22223b" stroke-width="6" stroke-linecap="round" />
+  </g>
+  
+  <!-- Sheet/record lines -->
+  <g transform="translate(256, 380)">
+    <rect x="-80" y="-50" width="160" height="20" rx="6" fill="#c9ada7" />
+    <rect x="-80" y="-20" width="160" height="20" rx="6" fill="#c9ada7" />
+    <rect x="-80" y="10" width="160" height="20" rx="6" fill="#c9ada7" />
+  </g>
+  
+  <!-- Small accent circle -->
+  <circle cx="350" cy="150" r="20" fill="#c9ada7" />
+</svg>
